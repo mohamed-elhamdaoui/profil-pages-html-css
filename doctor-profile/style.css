@@ -139,18 +139,18 @@ header button {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-    border: 2px solid;
     row-gap: 20px;
-    padding: 9px 0;
+    padding: 30px 0;
 }
 
 .card{
-    background-color: rgba(128, 128, 128, 0.094);
+    background-color: rgba(255, 255, 255, 0.29);
     border-radius: 23px;
     height: fit-content;
     width: 85%;
     margin: auto;
     padding: 10px 0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.04);
     
 }
 
@@ -163,7 +163,43 @@ header button {
     
 }
 
-.stat-card i {
+.stat-card .micro{
+    color: #6C63FF;
+    font-size: 40px;
+}
+.stat-card  .fa-wheelchair{
     color: #34C759;
     font-size: 40px;
+}
+.stat-card .fa-stethoscope {
+    color: #6BA4FF;
+    font-size: 40px;
+}
+.stat-card .fa-certificate {
+    color: #FFC34E;
+    font-size: 40px;
+}
+.stat-card p {
+    color: gray;
+    font-size: small;
+}
+
+.stat-card h3 {
+    letter-spacing: 1px;
+}
+
+.appointement-btn {
+    background-color: rgb(160, 76, 160);
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+
+.appointement-btn button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size:medium ;
 }
