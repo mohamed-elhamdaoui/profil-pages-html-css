@@ -1,0 +1,169 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #fff;
+  border-radius: 20px;
+
+  
+  margin: 20px;
+  height: 100vh;
+}
+
+header {
+  height: fit-content;
+  padding:5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+}
+.back-btn {
+  font-size: 30px;
+}
+
+.right-panel {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.doc-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.doc-detail h2 {
+    font-size:large ;
+    
+}
+
+.doc-detail span {
+    font-size: small;
+    color: skyblue;
+}
+
+
+.img-user {
+  height: 60px;
+  background-color: rgb(61, 179, 61);
+  border-radius: 39%;
+}
+
+
+.doc-infos {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.request-btn {
+    background-color: rgb(160, 76, 160);
+    border-radius: 14px;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+}
+
+.doc-name-filiere {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.doc-name-filiere h1 {
+    font-size: 22px ;
+}
+
+.doc-name-filiere p {
+    color: grey;
+    font-size:small ;
+    letter-spacing: 1px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+    gap: 5px;
+}
+
+.stats p {
+    font-size: 18px;
+}
+
+.stats small {
+    color: grey;
+    font-size: medium;
+}
+
+.icons {
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icons button {
+    padding: 8px 18px;
+    border-radius: 28px;
+    border: none;
+    font-size: larger;
+}
+
+.icons .ap-vid {
+    color: #6BA4FF;
+    background-color: #EBF3FF;
+}
+.icons .n-call {
+    color: #6CD28D;
+    background-color: #E8F9EF;
+}
+.icons .msg {
+    color: #B2A4FF;
+    background-color: #F2EEFF;
+}
+
+.acheivements {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 2px solid;
+    row-gap: 20px;
+    padding: 9px 0;
+}
+
+.card{
+    background-color: rgba(128, 128, 128, 0.094);
+    border-radius: 23px;
+    height: fit-content;
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    
+}
+
+.stat-card i {
+    color: #34C759;
+    font-size: 40px;
+}
