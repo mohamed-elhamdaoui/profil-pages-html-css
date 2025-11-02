@@ -32,10 +32,11 @@ body header ul li {
   border: 1px solid black;
 }
 body main {
-  height: 150vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 body main > section:nth-child(1) {
-  width: 100% D;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 130px 47px;
@@ -102,12 +103,6 @@ body main > section:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:
 body main > section:nth-child(2) > div:nth-child(1) {
   width: 95%;
   margin: auto;
-}
-body main > section:nth-child(2) > div:nth-child(1) > span {
-  border: 1px solid white;
-}
-body main > section:nth-child(2) > div:nth-child(1) > p {
-  border: 1px solid white;
 }
 body main > section:nth-child(2) > div:nth-child(2) {
   display: flex;
@@ -262,5 +257,57 @@ body main > section:nth-child(3) > div:nth-child(6) {
   font-size: larger;
 }
 body main > section:nth-child(4) {
-  height: 350px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main > section:nth-child(4) > div:nth-child(1) {
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body main > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  border: #f5f5f5 1px solid;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) i {
+  font-size: 36px;
+  color: #f5f5f5;
+}
+body main > section:nth-child(4) > div:nth-child(1) > h1 {
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+body main > section:nth-child(4) > div:nth-child(1) > span {
+  font-size: 14px;
+  text-align: center;
+}
+body main > section:nth-child(4) > div:nth-child(1) > div:nth-child(4) {
+  color: #85a1ff;
+}
+body main footer {
+  border-top: #f5f5f5 1px solid;
+  height: 40px;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body main footer div i {
+  font-size: large;
 }/*# sourceMappingURL=style.css.map */
